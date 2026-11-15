@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+database/*.db
+
+# Uploaded test files
+storage/uploaded_files/*
+!storage/uploaded_files/.gitkeep
+
+# Temporary files and logs
+*.part
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local test artifacts
+/authenticated_test.txt
+/client_download_test.txt
+/client_roundtrip.txt
+/database_test.txt
+/downloaded_by_id.txt
+/downloaded_test.txt
+/test_upload.txt
+
+# Screenshots
+screenshots/
